@@ -3,7 +3,7 @@
 :root{
     /* --yellow:#f9ca24; */
     /* --yellow: #eba53d; */
-    --yellow: #7bd657; 
+    --yellow: #f5be09; 
 }
 
 *{
@@ -337,13 +337,16 @@ header .navbar ul li a:hover{
     background: var(--yellow);
     padding: 1.3rem 3rem;
     margin: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 1.8rem;
     cursor: pointer;
     
 }
 .portfolio-container .imginfo a{
     color: #111;
-    padding-left: 2.4rem;
+    /* padding-left: 2.4rem; */
     font-size: 1.8rem;
     
 }
